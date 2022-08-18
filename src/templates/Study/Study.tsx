@@ -4,9 +4,9 @@ import { Content } from "./styles";
 
 export const Study = () => {
   return (
-    <FullScreenPage type="secondary">
+    <FullScreenPage>
       <Content>
-        <Title type="primary" text="Meus projetos" />
+        <Title type="secondary" text="Estudos" />
       </Content>
     </FullScreenPage>
   );
