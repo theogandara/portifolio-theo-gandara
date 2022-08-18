@@ -11,4 +11,10 @@ export const BackgroundStyled = styled.div<IBackgroundStyled>`
     height: 100vh;
     max-height: 100vh;
     background-color: ${props => props.type === "secondary" ? stylesDefault.secondary : stylesDefault.primary };
+
+    &:hover{
+        div > h2{
+            margin-top: -15px;
+            }
+        }
 `

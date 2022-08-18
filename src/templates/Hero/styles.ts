@@ -7,5 +7,5 @@ export const Content = styled.div`
         height: 304px;
         margin: 0 auto;
         margin-top: 200px;
-    }
+}
 `

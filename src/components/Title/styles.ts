@@ -11,7 +11,5 @@ export const TextStyled = styled.h2<ITextStyled>`
     color: ${props => props.type === "primary" ? stylesDefault.primary : stylesDefault.secondary };
     transition: all 0.4s;
 
-    &:hover{
-        margin-top: -15px;
-    }
+   
 `
